@@ -121,13 +121,3 @@ version-control:
 
   - name: Mercurial
     image_url: assets/images/mercurial.svg
-
-operating-systems:
-  - name: Linux
-    image_url: assets/images/linux.svg
-
-  - name: macOS
-    image_url: assets/images/macos.svg 
-
-  - name: Windows
-    image_url: assets/images/windows.svg 
