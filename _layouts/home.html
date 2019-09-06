@@ -30,7 +30,7 @@
       {% include masthead.html metadata=true %}
     </div>
 
-    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light">
       <div class="mx-auto" style="max-width: 900px;">
         {% unless content == ""  %}
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
@@ -40,8 +40,28 @@
 
         {% include projects.html %}
 
-        {% if site.topics %}
-          {% include interests.html %}
+        {% if site.languages %}
+          {% include languages.html %}
+        {% endif %}
+
+        {% if site.build-tools %}
+          {% include build-tools.html %}
+        {% endif %}
+
+        {% if site.frameworks %}
+          {% include frameworks.html %}
+        {% endif %}
+
+        {% if site.libraries %}
+          {% include libraries.html %}
+        {% endif %}
+
+        {% if site.version-control %}
+          {% include version-control.html %}
+        {% endif %}
+
+        {% if site.operating-systems %}
+          {% include operating-systems.html %}
         {% endif %}
 
         {% unless posts_total == 0 %}

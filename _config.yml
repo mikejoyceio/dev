@@ -17,8 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
+  sort_by: stars
   #   - pushed
   #   - stars
   limit: 9
@@ -28,7 +27,7 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -46,13 +45,89 @@ projects:
   # website: http://your_website_url
   # youtube: your_username
 
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+languages:
+  - name: CoffeeScript
+    image_url: assets/images/coffeescript.svg
 
-  - name: Web design
+  - name: CSS
+    image_url: assets/images/css.svg
+
+  - name: HTML
+    image_url: assets/images/html.svg
+
+  - name: JavaScript
+    image_url: assets/images/javascript.svg
+
+  - name: PHP
+    image_url: assets/images/php.svg
 
   - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    image_url: assets/images/sass.svg
+
+build-tools:
+  - name: Bower
+    image_url: assets/images/bower.svg
+
+  - name: Brunch
+    image_url: assets/images/brunch.svg
+
+  - name: Docker
+    image_url: assets/images/docker.svg
+
+  - name: Grunt
+    image_url: assets/images/grunt.svg
+
+  - name: Gulp
+    image_url: assets/images/gulp.svg
+
+  - name: Webpack
+    image_url: assets/images/webpack.svg
+
+frameworks:
+  - name: Bootstrap
+    image_url: assets/images/bootstrap.svg
+ 
+  - name: Compass
+    image_url: assets/images/compass.svg
+
+  - name: Foundation
+    image_url: assets/images/foundation.svg
+
+  - name: Jasmine
+    image_url: assets/images/jasmine.svg
+
+  - name: Kendo UI
+    image_url: assets/images/kendo-ui.svg
+
+  - name: Knockout
+    image_url: assets/images/knockout.svg
+
+libraries:
+  - name: D3
+    image_url: assets/images/d3.svg
+
+  - name: GreenSock
+    image_url: assets/images/greensock.svg
+ 
+  - name: jQuery
+    image_url: assets/images/jquery.svg
+
+  - name: React
+    image_url: assets/images/react.svg
+
+version-control:
+  - name: Git
+    image_url: assets/images/git.svg
+
+  - name: Mercurial
+    image_url: assets/images/mercurial.svg
+
+operating-systems:
+  - name: Linux
+    image_url: assets/images/linux.svg
+
+  - name: macOS
+    image_url: assets/images/macos.svg 
+
+  - name: Windows
+    image_url: assets/images/windows.svg 
