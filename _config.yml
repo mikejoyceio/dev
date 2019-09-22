@@ -93,6 +93,9 @@ frameworks:
   - name: Foundation
     image_url: assets/images/foundation.svg
 
+  - name: Gatsby
+    image_url: assets/images/gatsby.svg
+
   - name: Jasmine
     image_url: assets/images/jasmine.svg
 
