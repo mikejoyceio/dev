@@ -86,7 +86,7 @@ build-tools:
 frameworks:
   - name: Bootstrap
     image_url: assets/images/bootstrap.svg
- 
+
   - name: Compass
     image_url: assets/images/compass.svg
 
@@ -105,13 +105,16 @@ frameworks:
   - name: Knockout
     image_url: assets/images/knockout.svg
 
+  - name: Vue
+    image_url: assets/images/vue.svg
+
 libraries:
   - name: D3
     image_url: assets/images/d3.svg
 
   - name: GreenSock
     image_url: assets/images/greensock.svg
- 
+
   - name: jQuery
     image_url: assets/images/jquery.svg
 
